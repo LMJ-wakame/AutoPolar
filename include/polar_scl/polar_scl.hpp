@@ -1,0 +1,22 @@
+#pragma once
+
+#include "polar_scl/algorithm_ir.hpp"
+#include "polar_scl/algorithm_search.hpp"
+#include "polar_scl/construction.hpp"
+#include "polar_scl/cost.hpp"
+#include "polar_scl/decoder.hpp"
+#include "polar_scl/evaluator.hpp"
+#include "polar_scl/experiment.hpp"
+#include "polar_scl/ir.hpp"
+#include "polar_scl/linear_trellis.hpp"
+#include "polar_scl/materialize.hpp"
+#include "polar_scl/portfolio.hpp"
+#include "polar_scl/portfolio_evaluator.hpp"
+#include "polar_scl/primitives.hpp"
+#include "polar_scl/rate1.hpp"
+#include "polar_scl/search.hpp"
+#include "polar_scl/sca_search.hpp"
+#include "polar_scl/selector.hpp"
+
+#include "polar_scl/special_nodes.hpp"
+#include "polar_scl/stress.hpp"
