@@ -1,0 +1,13 @@
+{
+  "seed": 20260830,
+  "cases": 900,
+  "mismatches": 0,
+  "mean_lazy_primitive_work": 1069.8555555555556,
+  "mean_certified_primitive_work": 7684.12,
+  "mean_astar_primitive_work": 2030.7244444444445,
+  "mean_astar_candidate_work": 11.737777777777778,
+  "mean_astar_dp_state_relaxations": 1393.7777777777778,
+  "whole_frame_cases": 100,
+  "whole_frame_mismatches": 0,
+  "measurement_boundary": "Unweighted operation audit, not latency. A* reduces frontier overhead but does not outperform lazy exact in this metric."
+}

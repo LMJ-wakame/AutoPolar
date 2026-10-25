@@ -1,0 +1,86 @@
+{
+  "protocol": {
+    "training_seed": 20260829,
+    "validation_seed": 20270829,
+    "node_sizes": [8, 16, 32],
+    "list_sizes": [2, 4, 8],
+    "trials_per_case": 25
+  },
+  "grammar_synthesis": {
+    "raw_compositions": 2304,
+    "type_valid_compositions": 12,
+    "rejected_compositions": 2292,
+    "known_operator_signatures": 9,
+    "novel_operator_signatures": 3,
+    "derived_policy_instances": 12
+  },
+  "training": {
+    "total_cases": 2700,
+    "total_mismatches": 0,
+    "selected_by_domain": {
+      "spc": {
+        "hidden_bound": "parity_completion",
+        "policy": "initial=0,growth=1,mode=minimum_bound,budget=64",
+        "cases": 225,
+        "mismatches": 0,
+        "mean_candidate_work": 10.342222222222222,
+        "p99_candidate_work": 64.0,
+        "fallback_rate": 0.022222222222222223
+      },
+      "gpc2": {
+        "hidden_bound": "syndrome_completion",
+        "policy": "initial=0,growth=1,mode=minimum_bound,budget=256",
+        "cases": 225,
+        "mismatches": 0,
+        "mean_candidate_work": 11.613333333333333,
+        "p99_candidate_work": 69.0,
+        "fallback_rate": 0.0
+      },
+      "gpc4": {
+        "hidden_bound": "syndrome_completion",
+        "policy": "initial=0,growth=1,mode=minimum_bound,budget=256",
+        "cases": 225,
+        "mismatches": 0,
+        "mean_candidate_work": 35.43555555555555,
+        "p99_candidate_work": 721.0,
+        "fallback_rate": 0.022222222222222223
+      }
+    }
+  },
+  "independent_validation": {
+    "spc": {
+      "cases": 225,
+      "mismatches": 0,
+      "mean_candidate_work": 9.622222222222222,
+      "p99_candidate_work": 61.0,
+      "fallback_rate": 0.017777777777777778
+    },
+    "gpc2": {
+      "cases": 225,
+      "mismatches": 0,
+      "mean_candidate_work": 11.04888888888889,
+      "p99_candidate_work": 69.0,
+      "fallback_rate": 0.0044444444444444444
+    },
+    "gpc4": {
+      "cases": 225,
+      "mismatches": 0,
+      "mean_candidate_work": 40.684444444444445,
+      "p99_candidate_work": 850.0,
+      "fallback_rate": 0.03111111111111111
+    }
+  },
+  "regression": {
+    "unit_tests": 54,
+    "gpc2_randomized_node_cases_in_test_grid": 960,
+    "gpc2_randomized_mismatches": 0,
+    "whole_frame_gpc2_random_frames": 500,
+    "whole_frame_gpc2_mismatches": 0,
+    "gpc4_randomized_node_cases_in_test_grid": 320,
+    "gpc4_randomized_mismatches": 0,
+    "whole_frame_gpc4_random_frames": 420,
+    "whole_frame_gpc4_mismatches": 0,
+    "generic_gpc8_smoke_mismatches": 0
+  },
+  "claim_boundary": "G-PC is treated as a known node family. Novel means absent from the input IR library; no literature-first or latency claim is made."
+}

@@ -1,0 +1,35 @@
+Test project C:/workspace/scl/AutoPolar_CPP_Formal/build
+      Start  1: test_ir
+ 1/15 Test  #1: test_ir ..........................   Passed    0.04 sec
+      Start  2: test_rate1
+ 2/15 Test  #2: test_rate1 .......................   Passed    0.19 sec
+      Start  3: test_linear_trellis
+ 3/15 Test  #3: test_linear_trellis ..............   Passed    0.12 sec
+      Start  4: test_lab_migration
+ 4/15 Test  #4: test_lab_migration ...............   Passed   16.09 sec
+      Start  5: test_decoder
+ 5/15 Test  #5: test_decoder .....................   Passed    0.11 sec
+      Start  6: test_construction
+ 6/15 Test  #6: test_construction ................   Passed    0.06 sec
+      Start  7: test_algorithm_ir
+ 7/15 Test  #7: test_algorithm_ir ................   Passed    0.11 sec
+      Start  8: test_portfolio
+ 8/15 Test  #8: test_portfolio ...................   Passed    0.07 sec
+      Start  9: test_search
+ 9/15 Test  #9: test_search ......................   Passed    0.05 sec
+      Start 10: test_experiment
+10/15 Test #10: test_experiment ..................   Passed    0.07 sec
+      Start 11: test_baselines
+11/15 Test #11: test_baselines ...................   Passed    0.75 sec
+      Start 12: test_sca_search
+12/15 Test #12: test_sca_search ..................   Passed    0.11 sec
+      Start 13: test_searched_portfolio
+13/15 Test #13: test_searched_portfolio ..........   Passed    0.07 sec
+      Start 14: test_special_nodes
+14/15 Test #14: test_special_nodes ...............   Passed    0.64 sec
+      Start 15: test_mass_data
+15/15 Test #15: test_mass_data ...................   Passed    1.41 sec
+
+100% tests passed out of 15
+
+Total Test time (real) =  19.90 sec

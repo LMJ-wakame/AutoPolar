@@ -1,0 +1,46 @@
+{
+  "study": "parity-aware certified adaptive SPC",
+  "node_level": {
+    "cases": 900,
+    "mismatches": 0,
+    "policy": {
+      "initial_active_bits": 0,
+      "growth_step": 1,
+      "expansion_mode": "minimum_bound",
+      "candidate_budget": 256
+    },
+    "mean_adaptive_candidate_work": 9.845555555555556,
+    "mean_lazy_candidate_work": 17.644444444444446,
+    "candidate_work_reduction_fraction": 0.4420025188916876,
+    "p99_adaptive_candidate_work": 68.0,
+    "mean_frontier_expansions": 4.135555555555555,
+    "fallback_rate": 0.0011111111111111111
+  },
+  "whole_frame": {
+    "configuration": {
+      "construction": "PW",
+      "n": 128,
+      "payload_bits": 64,
+      "crc_bits": 8,
+      "list_size": 8,
+      "snr_db": 1.0,
+      "frames": 100
+    },
+    "reference_vs_rate1_only_mismatches": 0,
+    "reference_vs_spc_mismatches": 0,
+    "means_per_frame": {
+      "reference_leaf_steps": 128.0,
+      "reference_prune_events": 72.0,
+      "rate1_only_leaf_steps": 20.0,
+      "rate1_only_prune_events": 22.0,
+      "spc_leaf_steps": 0.0,
+      "spc_prune_events": 15.0,
+      "spc_nodes": 10.0,
+      "spc_candidates": 86.87,
+      "spc_frontier_expansions": 35.0,
+      "spc_fallbacks": 0.0
+    },
+    "spc_vs_rate1_only_leaf_reduction_fraction": 1.0,
+    "spc_vs_rate1_only_prune_reduction_fraction": 0.31818181818181823
+  }
+}

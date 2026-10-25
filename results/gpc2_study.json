@@ -1,0 +1,20 @@
+{
+  "node_study": {
+    "seed": 20260830,
+    "cases": 900,
+    "mismatches": 0,
+    "mean_lazy_candidate_work": 35.306666666666665,
+    "mean_certified_candidate_work": 12.9,
+    "candidate_work_reduction": 0.634629909365559,
+    "fallback_rate": 0.005555555555555556
+  },
+  "whole_frame_ablation": {
+    "pattern": "N=16, frozen local u[0:2], L=8",
+    "frames": 100,
+    "mismatches": 0,
+    "mean_prune_events_without_gpc2": 3.0,
+    "mean_prune_events_with_gpc2": 1.0,
+    "gpc2_fallbacks": 0
+  },
+  "measurement_boundary": "Algorithmic candidate/prune counts, not wall-clock or hardware latency."
+}

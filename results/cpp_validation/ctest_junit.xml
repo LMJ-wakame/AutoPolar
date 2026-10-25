@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="15"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="19"
+	timestamp="2026-10-25T15:00:17"
+	>
+	<testcase name="test_ir" classname="test_ir" time="0.0438628" status="run">
+		<properties/>
+		<system-out>[PASS] ir
+</system-out>
+	</testcase>
+	<testcase name="test_rate1" classname="test_rate1" time="0.192999" status="run">
+		<properties/>
+		<system-out>[PASS] rate1
+</system-out>
+	</testcase>
+	<testcase name="test_linear_trellis" classname="test_linear_trellis" time="0.119918" status="run">
+		<properties/>
+		<system-out>[PASS] linear_trellis
+</system-out>
+	</testcase>
+	<testcase name="test_lab_migration" classname="test_lab_migration" time="16.088" status="run">
+		<properties/>
+		<system-out>[section] rank compression and parity equivalence
+[section] arbitrary-H exhaustive/lazy/frontier/A-star/compiler/trellis
+[section] exact budgets and counters
+[section] SPC and generic GPC2/4/8
+[section] typed grammar and derivation provenance
+[section] schedule and risk-aware fusion/decomposition
+[section] whole-frame continuous and quantized canonical lists
+[section] PW CRC and encoding
+[section] policy evolution and independent IR validation
+[section] fractional parent metrics and equal-cost A-star terminals
+migration_groups=10 node_oracle_cases=920 frame_cases=520
+[PASS] full_cpp_migration
+</system-out>
+	</testcase>
+	<testcase name="test_decoder" classname="test_decoder" time="0.105765" status="run">
+		<properties/>
+		<system-out>[PASS] decoder
+</system-out>
+	</testcase>
+	<testcase name="test_construction" classname="test_construction" time="0.0557541" status="run">
+		<properties/>
+		<system-out>[PASS] construction
+</system-out>
+	</testcase>
+	<testcase name="test_algorithm_ir" classname="test_algorithm_ir" time="0.105246" status="run">
+		<properties/>
+		<system-out>[PASS] algorithm_ir
+</system-out>
+	</testcase>
+	<testcase name="test_portfolio" classname="test_portfolio" time="0.0661759" status="run">
+		<properties/>
+		<system-out>[PASS] portfolio
+</system-out>
+	</testcase>
+	<testcase name="test_search" classname="test_search" time="0.0528289" status="run">
+		<properties/>
+		<system-out>[PASS] search
+</system-out>
+	</testcase>
+	<testcase name="test_experiment" classname="test_experiment" time="0.065895" status="run">
+		<properties/>
+		<system-out>[PASS] experiment
+</system-out>
+	</testcase>
+	<testcase name="test_baselines" classname="test_baselines" time="0.75176" status="run">
+		<properties/>
+		<system-out>[PASS] baselines
+</system-out>
+	</testcase>
+	<testcase name="test_sca_search" classname="test_sca_search" time="0.113935" status="run">
+		<properties/>
+		<system-out>[PASS] sca_search
+</system-out>
+	</testcase>
+	<testcase name="test_searched_portfolio" classname="test_searched_portfolio" time="0.0696323" status="run">
+		<properties/>
+		<system-out>[PASS] searched_portfolio
+</system-out>
+	</testcase>
+	<testcase name="test_special_nodes" classname="test_special_nodes" time="0.637172" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="test_mass_data" classname="test_mass_data" time="1.40777" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+</testsuite>

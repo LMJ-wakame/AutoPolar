@@ -1,0 +1,252 @@
+Start testing: Oct 25 15:00 China Standard Time
+----------------------------------------------------------
+1/15 Testing: test_ir
+1/15 Test: test_ir
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_ir.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_ir" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] ir
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_ir" end time: Oct 25 15:00 China Standard Time
+"test_ir" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: test_rate1
+2/15 Test: test_rate1
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_rate1.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_rate1" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] rate1
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_rate1" end time: Oct 25 15:00 China Standard Time
+"test_rate1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: test_linear_trellis
+3/15 Test: test_linear_trellis
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_linear_trellis.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_linear_trellis" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] linear_trellis
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"test_linear_trellis" end time: Oct 25 15:00 China Standard Time
+"test_linear_trellis" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: test_lab_migration
+4/15 Test: test_lab_migration
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_lab_migration.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_lab_migration" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[section] rank compression and parity equivalence
+[section] arbitrary-H exhaustive/lazy/frontier/A-star/compiler/trellis
+[section] exact budgets and counters
+[section] SPC and generic GPC2/4/8
+[section] typed grammar and derivation provenance
+[section] schedule and risk-aware fusion/decomposition
+[section] whole-frame continuous and quantized canonical lists
+[section] PW CRC and encoding
+[section] policy evolution and independent IR validation
+[section] fractional parent metrics and equal-cost A-star terminals
+migration_groups=10 node_oracle_cases=920 frame_cases=520
+[PASS] full_cpp_migration
+<end of output>
+Test time =  16.09 sec
+----------------------------------------------------------
+Test Passed.
+"test_lab_migration" end time: Oct 25 15:00 China Standard Time
+"test_lab_migration" time elapsed: 00:00:16
+----------------------------------------------------------
+
+5/15 Testing: test_decoder
+5/15 Test: test_decoder
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_decoder.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_decoder" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] decoder
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"test_decoder" end time: Oct 25 15:00 China Standard Time
+"test_decoder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: test_construction
+6/15 Test: test_construction
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_construction.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_construction" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] construction
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"test_construction" end time: Oct 25 15:00 China Standard Time
+"test_construction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: test_algorithm_ir
+7/15 Test: test_algorithm_ir
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_algorithm_ir.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_algorithm_ir" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] algorithm_ir
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"test_algorithm_ir" end time: Oct 25 15:00 China Standard Time
+"test_algorithm_ir" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: test_portfolio
+8/15 Test: test_portfolio
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_portfolio.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_portfolio" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] portfolio
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_portfolio" end time: Oct 25 15:00 China Standard Time
+"test_portfolio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: test_search
+9/15 Test: test_search
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_search.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_search" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] search
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_search" end time: Oct 25 15:00 China Standard Time
+"test_search" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: test_experiment
+10/15 Test: test_experiment
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_experiment.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_experiment" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] experiment
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_experiment" end time: Oct 25 15:00 China Standard Time
+"test_experiment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: test_baselines
+11/15 Test: test_baselines
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_baselines.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_baselines" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] baselines
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"test_baselines" end time: Oct 25 15:00 China Standard Time
+"test_baselines" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: test_sca_search
+12/15 Test: test_sca_search
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_sca_search.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_sca_search" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] sca_search
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"test_sca_search" end time: Oct 25 15:00 China Standard Time
+"test_sca_search" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: test_searched_portfolio
+13/15 Test: test_searched_portfolio
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_searched_portfolio.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_searched_portfolio" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+[PASS] searched_portfolio
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_searched_portfolio" end time: Oct 25 15:00 China Standard Time
+"test_searched_portfolio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: test_special_nodes
+14/15 Test: test_special_nodes
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_special_nodes.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_special_nodes" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"test_special_nodes" end time: Oct 25 15:00 China Standard Time
+"test_special_nodes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: test_mass_data
+15/15 Test: test_mass_data
+Command: "C:/workspace/scl/AutoPolar_CPP_Formal/build/test_mass_data.exe"
+Directory: C:/workspace/scl/AutoPolar_CPP_Formal/build
+"test_mass_data" start time: Oct 25 15:00 China Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Passed.
+"test_mass_data" end time: Oct 25 15:00 China Standard Time
+"test_mass_data" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 25 15:00 China Standard Time
